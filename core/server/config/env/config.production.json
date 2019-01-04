@@ -17,5 +17,19 @@
             "enabled": true
         },
         "transports": ["file", "stdout"]
-    }
+    },
+    "mail": {
+            "service": "Outlook.com",
+            "transport": "SMTP",
+            "options": {
+                "host": "smtp.live.com",
+                "port": 587,
+                "secureConnection": true,
+                "auth": {
+                    "user": "devopme@outlook.com",
+                    "password": "**********"
+                }
+            }
+        }
+
 }
